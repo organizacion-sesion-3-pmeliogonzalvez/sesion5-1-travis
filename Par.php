@@ -4,7 +4,7 @@ class Par
  
     public function esPar($a)
     {
-        return $a%2;
+        return $a%2==0;
 		
     }
  
