@@ -29,7 +29,7 @@ class PaTests extends TestCase
 	  public function testAddImpar()
     {
         $result = $this->par->esPar(5);
-        $this->assertEquals(true, $result);
+        $this->assertEquals(false,$result);
     }
 
    
